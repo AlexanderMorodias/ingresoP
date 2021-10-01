@@ -32,12 +32,18 @@ body {
 
 .navbar__enlace {
     list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 15px 10px;
 }
 
 .navbar__enlace a {
     color: #fff;
     text-decoration: none;
+}
+
+.navbar__enlace a:hover {
+    font-weight: bold;
 }
 
 .presentacion__screen {
